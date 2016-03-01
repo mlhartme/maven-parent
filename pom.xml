@@ -7,9 +7,9 @@
     <relativePath />
   </parent>
 
-  <name>Sushi</name>
+  <name>lazy-foss-parent</name>
   <description>See ${project.url}.</description>
-  <url>https://github.com/mlhartme/sushi</url>
+  <url>https://github.com/mlhartme/lazy-foss-parent</url>
   <inceptionYear>2004</inceptionYear>
 
   <groupId>net.oneandone.maven.poms</groupId>
