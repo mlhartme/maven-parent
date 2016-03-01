@@ -29,6 +29,9 @@
     <cpd.skip>true</cpd.skip>
     <findbugs.skip>true</findbugs.skip>
     <jacoco.skip>true</jacoco.skip>
+
+    <!-- happens ways to often -->
+    <checkstyle.violation.ignore>CyclomaticComplexity</checkstyle.violation.ignore>
   </properties>
 
   <scm>
