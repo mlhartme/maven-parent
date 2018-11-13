@@ -3,6 +3,7 @@
 ### 1.0.3 (pending)
 
 * update foss-parent 1.5.12 to 1.6.0
+* reconfigue javadoc plugin to check syntax only
 
 
 ### 1.0.2 (2016-12-05)
