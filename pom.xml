@@ -14,7 +14,7 @@
 
   <groupId>net.oneandone.maven.poms</groupId>
   <artifactId>lazy-foss-parent</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -40,7 +40,7 @@
     <connection>scm:git:ssh://git@github.com/mlhartme/lazy-foss-parent.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mlhartme/lazy-foss-parent.git</developerConnection>
     <url>https://github.com/mlhartme/lazy-foss-parent</url>
-    <tag>lazy-foss-parent-1.0.3</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
