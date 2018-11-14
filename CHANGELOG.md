@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.0.3 (pending)
+### 1.0.3 (2018-11-14)
 
 * update foss-parent 1.5.12 to 1.6.0
 * reconfigue javadoc plugin to check syntax only
