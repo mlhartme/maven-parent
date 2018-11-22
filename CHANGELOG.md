@@ -1,5 +1,11 @@
 ## Changes
 
+### 1.0.4 (pending)
+
+* update compiler plugin 3.6.1 to 3.8.0
+* define release to compile against (https://stackoverflow.com/questions/43102787/what-is-the-release-flag-in-the-java-9-compiler)
+
+
 ### 1.0.3 (2018-11-14)
 
 * update foss-parent 1.5.12 to 1.6.0

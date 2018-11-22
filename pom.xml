@@ -24,6 +24,8 @@
     <oneandone.java.source>1.8</oneandone.java.source>
     <oneandone.java.target>1.8</oneandone.java.target>
     <oneandone.java.docversion>8</oneandone.java.docversion>
+    <maven.compiler.release>8</maven.compiler.release>
+    <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
 
     <!-- disable checks by default -->
     <enforcer.skip>true</enforcer.skip>
