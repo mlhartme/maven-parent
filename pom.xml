@@ -133,7 +133,7 @@
   </reporting>
   <profiles>
     <profile>
-      <id>java8</id>
+      <id>java-modules</id>
       <activation>
         <jdk>[9,)</jdk>
       </activation>
