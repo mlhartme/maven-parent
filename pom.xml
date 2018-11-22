@@ -24,7 +24,6 @@
     <oneandone.java.source>1.8</oneandone.java.source>
     <oneandone.java.target>1.8</oneandone.java.target>
     <oneandone.java.docversion>8</oneandone.java.docversion>
-    <maven.compiler.release>8</maven.compiler.release>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
 
     <!-- disable checks by default -->
@@ -132,5 +131,15 @@
       </plugin>
     </plugins>
   </reporting>
-
+  <profiles>
+    <profile>
+      <id>java8</id>
+      <activation>
+        <jdk>[9,)</jdk>
+      </activation>
+      <properties>
+        <maven.compiler.release>8</maven.compiler.release>
+      </properties>
+    </profile>
+  </profiles>
 </project>
