@@ -49,14 +49,7 @@
     <installAtEnd>true</installAtEnd>
     <deployAtEnd>true</deployAtEnd>
 
-    <!-- apache plugin versions and configurations, please sort alphabetically -->
-    <maven-checkstyle-plugin.configLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-ruleset.xml</maven-checkstyle-plugin.configLocation>
-    <maven-checkstyle-plugin.suppressionsLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-suppressions.xml</maven-checkstyle-plugin.suppressionsLocation>
-    <maven-failsafe-plugin.version>${maven-surefire-plugin.version}</maven-failsafe-plugin.version>
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
-
-    <!-- non apache plugin versions and configurations, please sort alphabetically -->
-    <jdepend-maven-plugin.version>2.0</jdepend-maven-plugin.version>
 
     <foss-configs.version>1.2</foss-configs.version>
 
@@ -100,6 +93,11 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>jdepend-maven-plugin</artifactId>
+          <version>2.0</version>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-antrun-plugin</artifactId>
           <version>1.8</version>
@@ -112,8 +110,8 @@
             <violationIgnore>CyclomaticComplexity</violationIgnore><!-- happens ways to often -->
 
             <enableRulesSummary>false</enableRulesSummary>
-            <configLocation>${maven-checkstyle-plugin.configLocation}</configLocation>
-            <suppressionsLocation>${maven-checkstyle-plugin.suppressionsLocation}</suppressionsLocation>
+            <configLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-ruleset.xml</configLocation>
+            <suppressionsLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-suppressions.xml</suppressionsLocation>
           </configuration>
           <dependencies>
             <dependency>
@@ -261,7 +259,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>${maven-failsafe-plugin.version}</version>
+          <version>${maven-surefire-plugin.version}</version>
           <executions>
             <execution>
               <id>default-integration-test</id>
@@ -592,12 +590,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <configuration>
-          <outputFileFormat>xml</outputFileFormat>
-          <enableRulesSummary>false</enableRulesSummary>
-          <configLocation>${maven-checkstyle-plugin.configLocation}</configLocation>
-          <suppressionsLocation>${maven-checkstyle-plugin.suppressionsLocation}</suppressionsLocation>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -617,7 +609,7 @@
               </links>
               <additionalOptions>
                 <additionalOption>-Xdoclint:syntax</additionalOption>
-q              </additionalOptions>
+              </additionalOptions>
             </configuration>
             <reports>
               <report>javadoc-no-fork</report>
@@ -628,7 +620,6 @@ q              </additionalOptions>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>${maven-surefire-plugin.version}</version>
         <reportSets>
           <reportSet>
             <inherited>true</inherited>
@@ -642,7 +633,6 @@ q              </additionalOptions>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>jdepend-maven-plugin</artifactId>
-        <version>${jdepend-maven-plugin.version}</version>
         <reportSets>
           <reportSet>
             <inherited>true</inherited>
