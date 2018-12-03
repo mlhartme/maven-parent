@@ -50,7 +50,6 @@
     <deployAtEnd>true</deployAtEnd>
 
     <!-- apache plugin versions and configurations, please sort alphabetically -->
-    <maven-changes-plugin.version>2.12.1</maven-changes-plugin.version>
     <maven-checkstyle-plugin.configLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-ruleset.xml</maven-checkstyle-plugin.configLocation>
     <maven-checkstyle-plugin.suppressionsLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-suppressions.xml</maven-checkstyle-plugin.suppressionsLocation>
     <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
@@ -351,7 +350,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-changes-plugin</artifactId>
-          <version>${maven-changes-plugin.version}</version>
+          <version>2.12.1</version>
           <executions>
             <execution>
               <id>default-announcement-generate</id>
