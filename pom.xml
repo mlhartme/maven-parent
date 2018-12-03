@@ -42,13 +42,6 @@
     <preparationGoals>clean</preparationGoals>
     <goals>deploy</goals>
 
-    <!-- installAtEnd and deployAtEnd, see
-    https://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#deployAtEnd and
-    https://maven.apache.org/plugins/maven-install-plugin/install-mojo.html#installAtEnd
-    -->
-    <installAtEnd>true</installAtEnd>
-    <deployAtEnd>true</deployAtEnd>
-
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
     <foss-configs.version>1.2</foss-configs.version>
@@ -158,6 +151,9 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>3.0.0-M1</version>
+          <configuration>
+            <deployAtEnd>true</deployAtEnd>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -191,6 +187,9 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
           <version>3.0.0-M1</version>
+          <configuration>
+            <installAtEnd>true</installAtEnd>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
