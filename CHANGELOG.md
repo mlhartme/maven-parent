@@ -6,11 +6,8 @@
   * removed dependency management
   * removed profiles: foss-parent-run-its, foss-parent-enable-invoker-log-output-on-travis, 
     foss-parent-enable-githubreport-when-not-on-travis, foss-parent-spock-tests
-  * removed jacoco  
-  * removed pmd
-  * removed findbugs
-  * removed invoker
-  * removed netbeans.checkstyle.format property
+  * removed plugins: jacoco, pmd, findbugs, invoker, jgitflow
+  * removed properties: netbeans.checkstyle.format
   * re-enable *relaxed* enforcer rules
   * site
     * removes dependency-updates-report
