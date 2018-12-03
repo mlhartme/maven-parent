@@ -35,7 +35,6 @@
 
   <properties>
     <!-- common build properties -->
-    <netbeans.checkstyle.format>true</netbeans.checkstyle.format>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -46,9 +45,6 @@
     <!-- used during release:prepare and release:perform -->
     <preparationGoals>clean</preparationGoals>
     <goals>deploy</goals>
-
-    <!-- configure git host name with a property -->
-    <gitHostName>github.com</gitHostName>
 
     <!-- installAtEnd and deployAtEnd, see
     https://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#deployAtEnd and
@@ -73,7 +69,6 @@
     <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
     <maven-help-plugin.version>3.1.0</maven-help-plugin.version>
     <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
-    <maven-invoker-plugin.version>3.1.0</maven-invoker-plugin.version>
     <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
     <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
     <maven-jxr-plugin.version>3.0.0</maven-jxr-plugin.version>
@@ -104,7 +99,6 @@
     <doxia-module-markdown.version>1.8</doxia-module-markdown.version>
     <foss-configs.version>1.2</foss-configs.version>
     <guice.version>3.0</guice.version>
-    <plexus-component-metadata.version>1.7.1</plexus-component-metadata.version>
 
   </properties>
 
@@ -447,39 +441,9 @@
           </executions>
         </plugin>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-invoker-plugin</artifactId>
-          <version>${maven-invoker-plugin.version}</version>
-          <configuration>
-            <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
-            <postBuildHookScript>verify</postBuildHookScript>
-            <addTestClassPath>true</addTestClassPath>
-          </configuration>
-          <executions>
-            <execution>
-              <id>default-pre-integration-test</id>
-              <goals>
-                <goal>install</goal>
-              </goals>
-            </execution>
-            <execution>
-              <id>default-integration-test</id>
-              <goals>
-                <goal>integration-test</goal>
-              </goals>
-            </execution>
-            <execution>
-              <id>default-verify</id>
-              <goals>
-                <goal>verify</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
           <groupId>org.codehaus.plexus</groupId>
           <artifactId>plexus-component-metadata</artifactId>
-          <version>${plexus-component-metadata.version}</version>
+          <version>1.7.1</version>
         </plugin>
         <plugin>
           <groupId>com.github.github</groupId>

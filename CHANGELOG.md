@@ -9,6 +9,8 @@
   * removed jacoco  
   * removed pmd
   * removed findbugs
+  * removed invoker
+  * removed netbeans.checkstyle.format property
   * re-enable *relaxed* enforcer rules
   * site
     * removes dependency-updates-report
