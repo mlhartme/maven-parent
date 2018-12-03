@@ -52,11 +52,8 @@
     <!-- apache plugin versions and configurations, please sort alphabetically -->
     <maven-checkstyle-plugin.configLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-ruleset.xml</maven-checkstyle-plugin.configLocation>
     <maven-checkstyle-plugin.suppressionsLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-suppressions.xml</maven-checkstyle-plugin.suppressionsLocation>
-    <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
-    <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
     <maven-failsafe-plugin.version>${maven-surefire-plugin.version}</maven-failsafe-plugin.version>
     <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
-    <maven-jxr-plugin.version>3.0.0</maven-jxr-plugin.version>
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
@@ -113,7 +110,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>${maven-checkstyle-plugin.version}</version>
+          <version>3.0.0</version>
           <configuration>
             <violationIgnore>CyclomaticComplexity</violationIgnore><!-- happens ways to often -->
 
@@ -145,7 +142,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>${maven-dependency-plugin.version}</version>
+          <version>3.1.1</version>
           <executions>
             <execution>
               <id>default-analyze-only</id>
@@ -154,6 +151,11 @@
               </goals>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jxr-plugin</artifactId>
+          <version>3.0.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -589,12 +591,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jxr-plugin</artifactId>
-        <version>${maven-jxr-plugin.version}</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>${maven-checkstyle-plugin.version}</version>
         <configuration>
           <outputFileFormat>xml</outputFileFormat>
           <enableRulesSummary>false</enableRulesSummary>
