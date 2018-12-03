@@ -35,7 +35,7 @@
 
   <properties>
     <!-- TODO - disable checks by default -->
-    <findbugs.skip>true</findbugs.skip>
+    <enforcer.skip>true</enforcer.skip>
     <checkstyle.violation.ignore>CyclomaticComplexity</checkstyle.violation.ignore><!-- happens ways to often -->
 
     <!-- common build properties -->
@@ -99,7 +99,6 @@
     <maven-license-plugin.header>/net/oneandone/maven/poms/fossconfigs/license-header.txt</maven-license-plugin.header>
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
     <spotbugs-maven-plugin.version>3.1.8</spotbugs-maven-plugin.version>
-    <spotbugs.excludeFilterFile>net/oneandone/maven/poms/fossconfigs/findbugs-exclude.xml</spotbugs.excludeFilterFile>
     <github-site-plugin.version>0.12</github-site-plugin.version>
     <github.global.server>github</github.global.server>
     <jdepend-maven-plugin.version>2.0</jdepend-maven-plugin.version>
@@ -719,14 +718,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <extensions>
-      <!-- needed for findbugs -->
-      <extension>
-        <groupId>net.oneandone.maven.poms</groupId>
-        <artifactId>foss-configs</artifactId>
-        <version>${foss-configs.version}</version>
-      </extension>
-    </extensions>
   </build>
   <profiles>
     <profile>
