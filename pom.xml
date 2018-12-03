@@ -35,7 +35,6 @@
 
   <properties>
     <!-- TODO - disable checks by default -->
-    <enforcer.skip>true</enforcer.skip>
     <findbugs.skip>true</findbugs.skip>
     <checkstyle.violation.ignore>CyclomaticComplexity</checkstyle.violation.ignore><!-- happens ways to often -->
 
