@@ -5,7 +5,7 @@
 * inline foss-parent with these changes:
   * removed dependency management
   * removed profiles: foss-parent-run-its, foss-parent-enable-invoker-log-output-on-travis, 
-    foss-parent-enable-githubreport-when-not-on-travis, foss-parent-spock-tests
+    foss-parent-enable-githubreport-when-not-on-travis, foss-parent-spock-tests, plexus-component-metadata
   * removed plugins: assembly, findbugs, invoker, jacoco, jgitflow, pmd
   * removed properties: netbeans.checkstyle.format
   * re-enable *relaxed* enforcer rules
