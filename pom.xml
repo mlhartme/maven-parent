@@ -57,11 +57,6 @@
     <maven-failsafe-plugin.version>${maven-surefire-plugin.version}</maven-failsafe-plugin.version>
     <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
     <maven-jxr-plugin.version>3.0.0</maven-jxr-plugin.version>
-    <maven-project-info-reports-plugin.version>3.0.0</maven-project-info-reports-plugin.version>
-    <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
-    <maven-scm-plugin.version>1.11.1</maven-scm-plugin.version>
-    <maven-scm-publish-plugin.version>3.0.0</maven-scm-publish-plugin.version>
-    <maven-site-plugin.version>3.7.1</maven-site-plugin.version>
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
@@ -286,12 +281,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>${maven-scm-plugin.version}</version>
+          <version>1.11.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-publish-plugin</artifactId>
-          <version>${maven-scm-publish-plugin.version}</version>
+          <version>3.0.0</version>
           <inherited>true</inherited>
           <configuration>
             <pubScmUrl>${project.scm.developerConnection}</pubScmUrl>
@@ -301,7 +296,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>${maven-release-plugin.version}</version>
+          <version>2.5.3</version>
           <inherited>true</inherited>
           <configuration>
             <!-- Workaround for passphrse prompting in gpg-plugin,
@@ -366,7 +361,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>${maven-site-plugin.version}</version>
+          <version>3.7.1</version>
           <executions>
             <execution>
               <id>default-attach-descriptor</id>
@@ -386,7 +381,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>${maven-project-info-reports-plugin.version}</version>
+          <version>3.0.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
