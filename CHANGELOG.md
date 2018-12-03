@@ -10,7 +10,10 @@
   * removed pmd
   * removed findbugs
   * re-enable *relaxed* enforcer rules
-
+  * site
+    * removes dependency-updates-report
+    * removed test javadocs
+    
 
 ### 1.0.4 (2018-11-22)
 
