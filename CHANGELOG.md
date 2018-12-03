@@ -4,6 +4,9 @@
 
 * inline foss-parent with these changes:
   * removed dependency management
+  * removed profiles: foss-parent-run-its, foss-parent-enable-invoker-log-output-on-travis, 
+    foss-parent-enable-githubreport-when-not-on-travis, foss-parent-spock-tests
+      
 
 ### 1.0.4 (2018-11-22)
 

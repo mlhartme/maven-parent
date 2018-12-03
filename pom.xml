@@ -871,77 +871,6 @@
       </build>
     </profile>
     <profile>
-      <id>foss-parent-run-its</id>
-      <activation>
-        <file>
-          <exists>src/it</exists>
-        </file>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-invoker-plugin</artifactId>
-          </plugin>
-        </plugins>
-      </build>
-      <reporting>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-invoker-plugin</artifactId>
-            <version>${maven-invoker-plugin.version}</version>
-          </plugin>
-        </plugins>
-      </reporting>
-    </profile>
-    <profile>
-      <id>foss-parent-enable-invoker-log-output-on-travis</id>
-      <activation>
-        <property>
-          <name>env.CI</name>
-        </property>
-      </activation>
-      <properties>
-        <invoker.parallelThreads>4</invoker.parallelThreads>
-        <invoker.showErrors>true</invoker.showErrors>
-        <invoker.streamLogs>true</invoker.streamLogs>
-      </properties>
-    </profile>
-    <profile>
-      <!--
-      On travis-ci, the API rate limit for github reports is sometimes exceeded,
-      so only render this when not run on travis.
-      -->
-      <id>foss-parent-enable-githubreport-when-not-on-travis</id>
-      <activation>
-        <property>
-          <name>!env.CI</name>
-        </property>
-      </activation>
-      <reporting>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-changes-plugin</artifactId>
-            <version>${maven-changes-plugin.version}</version>
-            <reportSets>
-              <reportSet>
-                <reports>
-                  <report>github-report</report>
-                </reports>
-              </reportSet>
-            </reportSets>
-            <configuration>
-              <includeOpenIssues>false</includeOpenIssues>
-              <onlyMilestoneIssues>true</onlyMilestoneIssues>
-              <runOnlyAtExecutionRoot>true</runOnlyAtExecutionRoot>
-            </configuration>
-          </plugin>
-        </plugins>
-      </reporting>
-    </profile>
-    <profile>
       <id>foss-parent-verification</id>
       <activation>
         <property>
@@ -1100,30 +1029,6 @@
           </plugin>
         </plugins>
       </reporting>
-    </profile>
-    <profile>
-      <id>foss-parent-spock-tests</id>
-      <activation>
-        <file>
-          <exists>src/test/groovy</exists>
-        </file>
-      </activation>
-      <dependencies>
-        <!-- test dependencies -->
-        <dependency>
-          <groupId>org.spockframework</groupId>
-          <artifactId>spock-core</artifactId>
-          <scope>test</scope>
-        </dependency>
-      </dependencies>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.codehaus.gmavenplus</groupId>
-            <artifactId>gmavenplus-plugin</artifactId>
-          </plugin>
-        </plugins>
-      </build>
     </profile>
   </profiles>
   <distributionManagement>
