@@ -423,51 +423,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>3.0.0-M2</version>
-          <dependencies>
-            <dependency>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>extra-enforcer-rules</artifactId>
-              <version>1.0-beta-9</version>
-            </dependency>
-          </dependencies>
-          <configuration>
-            <rules>
-              <requireMavenVersion>
-                <version>[3.3.9,)</version>
-              </requireMavenVersion>
-              <requireJavaVersion>
-                <version>1.8</version>
-              </requireJavaVersion>
-              <requireNoRepositories />
-              <requireReleaseDeps>
-                <onlyWhenRelease>true</onlyWhenRelease>
-                <message>No Snapshots Allowed!</message>
-              </requireReleaseDeps>
-              <requireProperty>
-                <property>project.version</property>
-                <message>"Project version must be specified."</message>
-                <regex>.*(\d|-SNAPSHOT)$</regex>
-                <regexMessage>"Project version must end in a number or -SNAPSHOT."</regexMessage>
-                <regex>\d.*$</regex>
-                <regexMessage>"Project version must start with a number."</regexMessage>
-              </requireProperty>
-              <requireProperty>
-                <property>project.scm.developerConnection</property>
-                <message>"project.scm.developerConnection must be specified."</message>
-                <regex>scm:git:ssh://git@${gitHostName}/.*$</regex>
-                <regexMessage>"project.scm.developerConnection must start with
-                  scm:git:ssh://git@${gitHostName}/"</regexMessage>
-              </requireProperty>
-            </rules>
-          </configuration>
-          <executions>
-            <execution>
-              <id>default-enforce</id>
-              <goals>
-                <goal>enforce</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -663,6 +618,11 @@
             </goals>
             <configuration>
               <rules>
+                <requireNoRepositories />
+                <requireReleaseDeps>
+                  <onlyWhenRelease>true</onlyWhenRelease>
+                  <message>No Snapshots Allowed!</message>
+                </requireReleaseDeps>
                 <requireMavenVersion>
                   <version>[3.5.3,)</version>
                 </requireMavenVersion>
