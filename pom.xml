@@ -53,12 +53,9 @@
     <maven-checkstyle-plugin.configLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-ruleset.xml</maven-checkstyle-plugin.configLocation>
     <maven-checkstyle-plugin.suppressionsLocation>/net/oneandone/maven/poms/fossconfigs/checkstyle-suppressions.xml</maven-checkstyle-plugin.suppressionsLocation>
     <maven-failsafe-plugin.version>${maven-surefire-plugin.version}</maven-failsafe-plugin.version>
-    <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
-    <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
     <!-- non apache plugin versions and configurations, please sort alphabetically -->
-    <spotbugs-maven-plugin.version>3.1.8</spotbugs-maven-plugin.version>
     <jdepend-maven-plugin.version>2.0</jdepend-maven-plugin.version>
 
     <foss-configs.version>1.2</foss-configs.version>
@@ -240,7 +237,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>${maven-source-plugin.version}</version>
+          <version>3.0.1</version>
           <executions>
             <execution>
               <id>default-jar-no-fork</id>
@@ -312,7 +309,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${maven-javadoc-plugin.version}</version>
+          <version>3.0.1</version>
           <configuration>
             <quiet>true</quiet>
             <links>
@@ -393,7 +390,7 @@
         <plugin>
           <groupId>com.github.spotbugs</groupId>
           <artifactId>spotbugs-maven-plugin</artifactId>
-          <version>${spotbugs-maven-plugin.version}</version>
+          <version>3.1.8</version>
           <executions>
             <execution>
               <id>default-check</id>
@@ -605,7 +602,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>${maven-javadoc-plugin.version}</version>
         <reportSets>
           <reportSet>
             <id>default</id>
@@ -659,7 +655,6 @@ q              </additionalOptions>
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>${spotbugs-maven-plugin.version}</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
