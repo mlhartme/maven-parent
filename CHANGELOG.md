@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.1.0 (pending)
+### 1.1.0 (2018-12-07)
 
 * inline foss-parent with these changes:
   * removed dependency management
