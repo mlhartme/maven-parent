@@ -1,5 +1,12 @@
 ## Changes
 
+### 1.2.0 (pending)
+
+* checkstyle update
+  * update to checkstyle 8.15
+  * change checkstyles rules to cip rules
+
+
 ### 1.1.0 (2018-12-07)
 
 * inline foss-parent with these changes:
