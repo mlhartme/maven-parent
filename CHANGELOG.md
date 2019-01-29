@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.2.0 (pending)
+### 1.2.0 (2019-01-29)
 
 * checkstyle update
   * update to checkstyle 8.15
