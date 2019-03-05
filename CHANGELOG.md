@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.2.1 (pending)
+
+* update javadoc plugin 3.0.1 to 3.1.0
+
+
 ### 1.2.0 (2019-01-29)
 
 * checkstyle update
