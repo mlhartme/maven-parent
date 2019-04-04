@@ -3,6 +3,7 @@
 ### 1.2.1 (pending)
 
 * update javadoc plugin 3.0.1 to 3.1.0
+* update spotbugs 3.1.8 to 3.1.11
 
 
 ### 1.2.0 (2019-01-29)
