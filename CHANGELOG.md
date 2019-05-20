@@ -4,6 +4,7 @@
 
 * update surefire+failsafe plugin 2.22.0 to 2.22.2
 * update javadoc plugin 3.0.1 to 3.1.0
+* update source plugin 3.0.1 to 3.1.0
 * update spotbugs 3.1.8 to 3.1.11
 * update help plugin 3.1.0 to 3.2.0
 * update jar plugin 3.1.0 to 3.1.2
