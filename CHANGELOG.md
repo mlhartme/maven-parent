@@ -2,6 +2,7 @@
 
 ### 1.2.1 (pending)
 
+* added war plugin 3.2.3 to the managed plugins
 * update surefire+failsafe plugin 2.22.0 to 2.22.2
 * update javadoc plugin 3.0.1 to 3.1.0
 * update source plugin 3.0.1 to 3.1.0
