@@ -1,5 +1,3 @@
 # lazy-foss-parent
 
-https://github.com/1and1/foss-parent with
-* checks disabled by default
-* java 8 with lazy javadoc checks
+is a general purpose parent pom for Maven projects. Technically, it is a simplified https://github.com/1and1/foss-parent.
