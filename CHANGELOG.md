@@ -1,7 +1,8 @@
 ## Changes
 
-### 1.2.1 (pending)
+### 1.3.0 (pending)
 
+* run checkstyle during `verify` phase
 * added war plugin 3.2.3 to the managed plugins
 * update checkstyle plugin 3.0.0 to 3.1.0
 * update checkstyle library 8.15 to 8.21
