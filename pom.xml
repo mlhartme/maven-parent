@@ -116,8 +116,10 @@
                   <property name="format" value="^\s+(for|if)\(" />
                   <property name="message" value="Space needed between 'if/for' and opening parenthesis." />
                 </module>
+                <module name="SuppressWarningsFilter" />
                 <module name="TreeWalker">
                   <module name="SuppressionCommentFilter" />
+                  <module name="SuppressWarningsHolder" />
                   <module name="JavadocStyle">
                     <property name="checkFirstSentence" value="false" />
                     <property name="checkHtml" value="false" />
