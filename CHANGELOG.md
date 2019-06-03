@@ -13,6 +13,7 @@
 * update help plugin 3.1.0 to 3.2.0
 * update jar plugin 3.1.0 to 3.1.2
 * update scm plugin 1.11.1 to 1.11.2
+* update doxia markdown module 1.8 to 1.9
 
 
 ### 1.2.0 (2019-01-29)
