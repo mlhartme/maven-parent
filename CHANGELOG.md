@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.3.0 (pending)
+### 1.3.0 (2019-06-24)
 
 * run checkstyle during `validate` phase
 * added war plugin 3.2.3 to the managed plugins
