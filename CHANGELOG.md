@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.3.1 (pending)
+
+* update javadoc plugin 3.1.0 to 3.1.1
+
+
 ### 1.3.0 (2019-06-24)
 
 * run checkstyle during `validate` phase
