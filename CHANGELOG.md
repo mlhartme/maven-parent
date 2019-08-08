@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.3.1 (pending)
+### 1.3.1 (2019-08-08)
 
 * update javadoc plugin 3.1.0 to 3.1.1
 * update site plugin 3.7.1 to 3.8.2
