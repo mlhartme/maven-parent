@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.3.2 (pending)
+
+* update source plugin 3.1.0 to 3.2.0
+
+
 ### 1.3.1 (2019-08-08)
 
 * update javadoc plugin 3.1.0 to 3.1.1
