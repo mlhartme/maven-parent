@@ -2,6 +2,7 @@
 
 ### 1.3.2 (pending)
 
+* update jar plugin 3.1.2 to 3.2.0
 * update source plugin 3.1.0 to 3.2.0
 
 
