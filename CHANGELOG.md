@@ -2,6 +2,7 @@
 
 ### 1.3.2 (pending)
 
+* update surefire and failsafe plugin 2.22.2 to 3.0.0-M4
 * update jar plugin 3.1.2 to 3.2.0
 * update source plugin 3.1.0 to 3.2.0
 
