@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.3.2 (pending)
+### 1.3.2 (2019-11-20)
 
 * update surefire and failsafe plugin 2.22.2 to 3.0.0-M4
 * update jar plugin 3.1.2 to 3.2.0
