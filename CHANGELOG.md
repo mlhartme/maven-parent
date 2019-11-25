@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.3.3 (pending)
+
+* update enforder plugin 3.0.0-M2 to 3.0.0-M3
+
+
 ### 1.3.2 (2019-11-20)
 
 * update surefire and failsafe plugin 2.22.2 to 3.0.0-M4
