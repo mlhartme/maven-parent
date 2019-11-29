@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.3.3 (pending)
+### 1.3.3 (2019-11-29)
 
 * update enforder plugin 3.0.0-M2 to 3.0.0-M3
 
