@@ -2,6 +2,7 @@
 
 ### 1.3.4 (pending)
 
+* update checkstyle 8.21 to 8.29
 * update release plugin 2.5.3 to 3.0.0-M1
 * update source plugin 3.2.0 to 3.2.1
 
