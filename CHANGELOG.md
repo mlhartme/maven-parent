@@ -1,10 +1,10 @@
 ## Changes
 
-### 1.3.4 (pending)
+### 1.3.4 (2020-02-04)
 
 * update checkstyle 8.21 to 8.29
-* update release plugin 2.5.3 to 3.0.0-M1
 * update source plugin 3.2.0 to 3.2.1
+* CAUTION: do not update release plugin 2.5.3 to 3.0.0-M1 because of https://issues.apache.org/jira/browse/MRELEASE-973
 
 
 ### 1.3.3 (2019-11-29)
