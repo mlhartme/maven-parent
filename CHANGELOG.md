@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.3.5 (pending)
+
+* update checkstyle plugin 3.1.0 to 3.1.1
+
+
 ### 1.3.4 (2020-02-04)
 
 * update checkstyle 8.21 to 8.29
