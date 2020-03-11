@@ -3,6 +3,7 @@
 ### 1.3.5 (pending)
 
 * update checkstyle plugin 3.1.0 to 3.1.1
+* update site plugin 3.8.2 to 3.9.0
 
 
 ### 1.3.4 (2020-02-04)
