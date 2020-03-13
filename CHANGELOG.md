@@ -2,6 +2,7 @@
 
 ### 1.3.5 (pending)
 
+* update dependency plugin 3.1.1 to 3.1.2
 * update checkstyle plugin 3.1.0 to 3.1.1
 * update site plugin 3.8.2 to 3.9.0
 
