@@ -2,9 +2,10 @@
 
 ### 1.3.5 (pending)
 
-* update javadoc plugin 3.1.1 to 3.2.0
-* update dependency plugin 3.1.1 to 3.1.2
+* update antrun plugin 1.8 to 3.0
 * update checkstyle plugin 3.1.0 to 3.1.1
+* update dependency plugin 3.1.1 to 3.1.2
+* update javadoc plugin 3.1.1 to 3.2.0
 * update site plugin 3.8.2 to 3.9.0
 
 
