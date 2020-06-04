@@ -7,6 +7,7 @@
 * update dependency plugin 3.1.1 to 3.1.2
 * update javadoc plugin 3.1.1 to 3.2.0
 * update site plugin 3.8.2 to 3.9.0
+* update maven-project-info-reports-plugin 3.0.0 to 3.1.0  (TODO: no on maven central yet ...)
 
 
 ### 1.3.4 (2020-02-04)
