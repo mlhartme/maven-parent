@@ -11,6 +11,7 @@
 * update maven-project-info-reports-plugin 3.0.0 to 3.1.0  (TODO: no on maven central yet ...)
 * update spotbugs-maven-plugin 3.1.11 to 4.0.0
 * update surefire plugin 3.0.0 M4 to M5
+* update resource plugin 3.1.0 to 3.2.0
 
 
 ### 1.3.4 (2020-02-04)
