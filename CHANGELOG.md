@@ -9,6 +9,7 @@
 * update javadoc plugin 3.1.1 to 3.2.0
 * update site plugin 3.8.2 to 3.9.1
 * update maven-project-info-reports-plugin 3.0.0 to 3.1.0  (TODO: no on maven central yet ...)
+* update project-info-reports 3.1.0 to 3.1.1
 * update spotbugs-maven-plugin 3.1.11 to 4.0.0
 * update surefire plugin 3.0.0 M4 to M5
 * update resource plugin 3.1.0 to 3.2.0
