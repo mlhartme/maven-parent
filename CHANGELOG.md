@@ -1,7 +1,8 @@
 ## Changes
 
-### 1.3.5 (pending)
+### 1.4.0 (pending)
 
+* raised default Java Version from 8 to 11
 * update war plugin 3.2.3 to 3.3.1
 * update antrun plugin 1.8 to 3.0
 * update checkstyle plugin 3.1.0 to 3.1.1
