@@ -301,11 +301,6 @@
           <version>3.2.0</version>
           <configuration>
             <quiet>true</quiet>
-            <links>
-              <link>https://docs.oracle.com/javase/${oneandone.java.docversion}/docs/api/</link>
-              <link>https://junit.org/junit4/javadoc/latest/</link>
-              <link>https://www.slf4j.org/apidocs/</link>
-            </links>
           </configuration>
           <executions>
             <execution>

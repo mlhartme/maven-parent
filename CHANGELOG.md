@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.4.1 (2020-10-12)
+
+* removed hardcoded Javadoc Links to Jdk, Slf4j and Junit (because Junit is down every now and then)
+
+
 ### 1.4.0 (2020-10-12)
 
 * raised default Java Version from 8 to 11
