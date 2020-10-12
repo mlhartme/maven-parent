@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.4.0 (pending)
+### 1.4.0 (2020-10-12)
 
 * raised default Java Version from 8 to 11
 * update war plugin 3.2.3 to 3.3.1
