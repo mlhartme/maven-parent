@@ -687,11 +687,6 @@
               <quiet>true</quiet>
               <detectLinks>false</detectLinks>
               <detectOfflineLinks>false</detectOfflineLinks>
-              <links>
-                <link>http://docs.oracle.com/javase/${oneandone.java.docversion}/docs/api/</link>
-                <link>http://junit.org/junit4/javadoc/latest/</link>
-                <link>http://www.slf4j.org/apidocs/</link>
-              </links>
               <additionalOptions>
                 <additionalOption>-Xdoclint:syntax</additionalOption>
               </additionalOptions>
