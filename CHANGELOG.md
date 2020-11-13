@@ -4,6 +4,7 @@
 
 * update spotbugs-maven-plugin 4.0.0 to 4.1.4
 * update versions-maven-plugin 2.7 to 2.8.1
+* update checkstyle engine 8.29 to 8.37
 * removed hardcoded Javadoc Links to Jdk, Slf4j and Junit from report generation
 
 
