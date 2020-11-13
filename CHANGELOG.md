@@ -7,6 +7,7 @@
 * update checkstyle engine 8.29 to 8.37
 * update markdown 1.9 to 1.9.1
 * dumped extra dependencies from surefire plugin
+* fixed missing version warning for surefire report
 * removed hardcoded Javadoc Links to Jdk, Slf4j and Junit from report generation
 
 
