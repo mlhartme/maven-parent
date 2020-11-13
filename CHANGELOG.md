@@ -6,6 +6,7 @@
 * update versions-maven-plugin 2.7 to 2.8.1
 * update checkstyle engine 8.29 to 8.37
 * update markdown 1.9 to 1.9.1
+* dumped extra dependencies from surefire plugin
 * removed hardcoded Javadoc Links to Jdk, Slf4j and Junit from report generation
 
 
