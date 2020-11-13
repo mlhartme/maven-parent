@@ -2,7 +2,9 @@
 
 ### 1.4.2 (pending)
 
-* also removed hardcoded Javadoc Links to Jdk, Slf4j and Junit from report generation
+* update spotbugs-maven-plugin 4.0.0 to 4.1.4
+* update versions-maven-plugin 2.7 to 2.8.1
+* removed hardcoded Javadoc Links to Jdk, Slf4j and Junit from report generation
 
 
 ### 1.4.1 (2020-10-12)
