@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.4.2 (pending)
+### 1.4.2 (2020-11-30)
 
 * update spotbugs-maven-plugin 4.0.0 to 4.1.4
 * update versions-maven-plugin 2.7 to 2.8.1
