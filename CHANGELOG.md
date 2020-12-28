@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.4.3 (pending)
+
+* update scm-publish-plugin 3.0.0 to 3.1.1
+
+
 ### 1.4.2 (2020-11-30)
 
 * update spotbugs-maven-plugin 4.0.0 to 4.1.4
