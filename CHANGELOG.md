@@ -2,6 +2,7 @@
 
 ### 1.4.3 (pending)
 
+* update checkstyle plugin 3.1.1 to 3.1.2
 * update scm-publish-plugin 3.0.0 to 3.1.1
 
 
