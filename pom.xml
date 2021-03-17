@@ -85,6 +85,16 @@
     </developer>
   </developers>
   <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+      </resource>
+      <resource>
+        <directory>src/main/filtered-resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
     <pluginManagement>
       <plugins>
         <plugin>
