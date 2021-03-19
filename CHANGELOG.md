@@ -3,6 +3,7 @@
 ### 1.5.0 (pending)
 
 * configure src/main/filtered-resources for filtered resources
+* compiler plugin: enable general warnings and deprecation warnings  
 * raised default Java Version from 11 to 15
 * update checkstyle 8.37 to 8.40
 * update checkstyle plugin 3.1.1 to 3.1.2
