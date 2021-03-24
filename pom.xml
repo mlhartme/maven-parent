@@ -31,7 +31,7 @@
 
   <properties>
     <!-- common build properties -->
-    <java.major>15</java.major>
+    <java.major>16</java.major>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>${java.major}</maven.compiler.source>
