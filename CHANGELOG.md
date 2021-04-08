@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.5.0 (pending)
+### 1.5.0 (2021-04-08)
 
 * configure src/main/filtered-resources for filtered resources
 * compiler plugin: enable general warnings and deprecation warnings  
