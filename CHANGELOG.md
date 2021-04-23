@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.5.1 (pending)
+
+* update jxr plugin 3.0.0 to 3.1.1
+
+
 ### 1.5.0 (2021-04-08)
 
 * configure src/main/filtered-resources for filtered resources
