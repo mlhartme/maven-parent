@@ -4,7 +4,7 @@
 
 * update jxr plugin 3.0.0 to 3.1.1
 * update project-info plugin 3.1.1 to 3.1.2
-* update gpg plugin 1.6 to 3.0.1
+* update gpg plugin 1.6 to 3.0.1 - CAUTION: released now need mvn release:perform "-Darguments=-Dgpg.passphrase=thePassPhrase"
 
 
 ### 1.5.0 (2021-04-08)
