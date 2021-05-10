@@ -4,6 +4,7 @@
 
 * update jxr plugin 3.0.0 to 3.1.1
 * update project-info plugin 3.1.1 to 3.1.2
+* update gpg plugin 1.6 to 3.0.1
 
 
 ### 1.5.0 (2021-04-08)
