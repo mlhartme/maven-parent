@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.5.1 (pending)
+### 1.5.1 (2021-05-10)
 
 * update jxr plugin 3.0.0 to 3.1.1
 * update project-info plugin 3.1.1 to 3.1.2
