@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.5.2 (pending)
+
+* update javadoc 3.2.0 to 3.3.0
+
+
 ### 1.5.1 (2021-05-10)
 
 * update jxr plugin 3.0.0 to 3.1.1
