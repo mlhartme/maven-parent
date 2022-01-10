@@ -2,11 +2,11 @@
 
 ### 1.5.2 (pending)
 
-* update javadoc plugin 3.3.0 to 3.3.1
+* update jar plugin 3.2.0 to 3.2.1
+* update javadoc plugin 3.2.0 to 3.3.1
 * update war plugin 3.3.1 to 3.3.2
 * update scm plugin 1.11.2 to 1.12.0
 * update enforcer 3.0.0-M3 to 3.0.0
-* update javadoc 3.2.0 to 3.3.0
 
 
 ### 1.5.1 (2021-05-10)
