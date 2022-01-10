@@ -7,6 +7,7 @@
 * update war plugin 3.3.1 to 3.3.2
 * update scm plugin 1.11.2 to 1.12.2
 * update enforcer 3.0.0-M3 to 3.0.0
+* update site plugin 3.9.1 to 3.10.0
 
 
 ### 1.5.1 (2021-05-10)
