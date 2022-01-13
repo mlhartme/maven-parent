@@ -2,7 +2,8 @@
 
 ### 1.5.2 (pending)
 
-* update jar plugin 3.2.0 to 3.2.1
+* update compiler plugin 3.8.0 to 3.9.0
+* update jar plugin 3.2.0 to 3.2.2
 * update javadoc plugin 3.2.0 to 3.3.1
 * update war plugin 3.3.1 to 3.3.2
 * update scm plugin 1.11.2 to 1.12.2
