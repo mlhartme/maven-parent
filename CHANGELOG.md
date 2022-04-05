@@ -3,6 +3,7 @@
 ### 1.5.2 (pending)
 
 * update compiler plugin 3.8.0 to 3.10.1
+* update surefire and failsafe plugin 3.0.0-M5 to M6
 * update jar plugin 3.2.0 to 3.2.2
 * update javadoc plugin 3.2.0 to 3.3.1
 * update war plugin 3.3.1 to 3.3.2
