@@ -12,6 +12,7 @@
 * update scm plugin 1.11.2 to 1.12.2
 * update enforcer 3.0.0-M3 to 3.0.0
 * update site plugin 3.9.1 to 3.11.0
+* update doxia-module-markdown 1.9.1 to 1.11.1
 * update jxr plugin 3.1.1 to 3.2.0
 
 
