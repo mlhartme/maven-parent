@@ -14,6 +14,7 @@
 * update site plugin 3.9.1 to 3.12.0
 * update doxia-module-markdown 1.9.1 to 1.11.1
 * update jxr plugin 3.1.1 to 3.2.0
+* update project-info plugin 3.1.2 to 3.3.0
 
 
 ### 1.5.1 (2021-05-10)
