@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.5.2 (pending)
+### 1.5.2 (2022-06-15)
 
 * update clean plugin 3.1.0 to 3.2.0
 * update compiler plugin 3.8.0 to 3.10.1
