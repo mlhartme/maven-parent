@@ -7,7 +7,7 @@
 
   <groupId>net.oneandone.maven.poms</groupId>
   <artifactId>lazy-foss-parent</artifactId>
-  <version>1.5.2-SNAPSHOT</version>
+  <version>1.5.2</version>
   <packaging>pom</packaging>
 
   <inceptionYear>2012</inceptionYear>
@@ -26,7 +26,7 @@
     <connection>scm:git:git://git@github.com/mlhartme/lazy-foss-parent.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mlhartme/lazy-foss-parent.git</developerConnection>
     <url>https://github.com/mlhartme/lazy-foss-parent</url>
-    <tag>HEAD</tag>
+    <tag>lazy-foss-parent-1.5.2</tag>
   </scm>
 
   <properties>
