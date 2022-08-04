@@ -3,7 +3,7 @@
 ### 1.5.3 (pending)
 
 * update resource plugin 3.2.0 to 3.3.0
-
+* update install plugin 3.0.0-M1 to 3.0.1
 
 ### 1.5.2 (2022-06-15)
 
