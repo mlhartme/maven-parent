@@ -2,6 +2,8 @@
 
 ### 1.5.3 (pending)
 
+* update project-info plugin 3.3.0 to 3.4.1
+* update javadoc plugin 3.4.0 to 3.4.1
 * update resource plugin 3.2.0 to 3.3.0
 * update install plugin 3.0.0-M1 to 3.0.1
 * update deploy plugin 3.0.0-M1 to 3.0.0
