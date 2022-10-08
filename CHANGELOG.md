@@ -3,6 +3,7 @@
 ### 1.6.0 (pending)
 
 * changed coordinates to de.schmizzolin.maven.poms:parent
+* changed default branch to main
 * bump java 16 to 17
 
 * update distribution management to new sonatype hosts
