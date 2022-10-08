@@ -1,7 +1,9 @@
 ## Changes
 
-### 1.5.3 (pending)
+### 1.6.0 (pending)
 
+* changed coordinates to de.schmizzolin.maven.poms:parent
+* update distribution management to new sonatype hosts
 * update checkstyle plugin 3.1.2 to 3.2.0
 * update jar plugin 3.2.2 to 3.3.0
 * update jxr plugin 3.2.0 to 3.3.0
