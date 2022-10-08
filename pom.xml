@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>lazy-foss-parent</name>
+  <name>Maven Parent</name>
   <description>See ${project.url}.</description>
-  <url>https://github.com/mlhartme/lazy-foss-parent</url>
+  <url>https://github.com/mlhartme/maven-parent</url>
 
   <groupId>de.schmizzolin.maven.poms</groupId>
   <artifactId>parent</artifactId>
@@ -13,25 +13,25 @@
   <inceptionYear>2012</inceptionYear>
 
   <organization>
-    <name>1&amp;1</name>
-    <url>https://1and1.github.com/</url>
+    <name>mlhartme</name>
+    <url>https://github.com/mlhartme/</url>
   </organization>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/mlhartme/lazy-foss-parent/issues/</url>
+    <url>https://github.com/mlhartme/parent/issues/</url>
   </issueManagement>
 
   <scm>
-    <connection>scm:git:git://git@github.com/mlhartme/lazy-foss-parent.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mlhartme/lazy-foss-parent.git</developerConnection>
-    <url>https://github.com/mlhartme/lazy-foss-parent</url>
+    <connection>scm:git:git://git@github.com/mlhartme/maven-parent.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mlhartme/maven-parent.git</developerConnection>
+    <url>https://github.com/mlhartme/maven-parent</url>
     <tag>HEAD</tag>
   </scm>
 
   <properties>
     <!-- common build properties -->
-    <java.major>16</java.major>
+    <java.major>17</java.major>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>${java.major}</maven.compiler.source>

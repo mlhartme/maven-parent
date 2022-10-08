@@ -3,6 +3,8 @@
 ### 1.6.0 (pending)
 
 * changed coordinates to de.schmizzolin.maven.poms:parent
+* bump java 16 to 17
+
 * update distribution management to new sonatype hosts
 * update checkstyle plugin 3.1.2 to 3.2.0
 * update jar plugin 3.2.2 to 3.3.0
