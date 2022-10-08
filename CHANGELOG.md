@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.6.0 (pending)
+### 1.6.0 (2022-10-08)
 
 * changed coordinates to de.schmizzolin.maven.poms:parent
 * changed default branch to main
