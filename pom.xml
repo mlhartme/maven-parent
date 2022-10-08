@@ -7,7 +7,7 @@
 
   <groupId>de.schmizzolin.maven.poms</groupId>
   <artifactId>parent</artifactId>
-  <version>1.6.0-SNAPSHOT</version>
+  <version>1.6.0</version>
   <packaging>pom</packaging>
 
   <inceptionYear>2012</inceptionYear>
@@ -26,7 +26,7 @@
     <connection>scm:git:git://git@github.com/mlhartme/maven-parent.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mlhartme/maven-parent.git</developerConnection>
     <url>https://github.com/mlhartme/maven-parent</url>
-    <tag>HEAD</tag>
+    <tag>parent-1.6.0</tag>
   </scm>
 
   <properties>
