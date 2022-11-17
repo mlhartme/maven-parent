@@ -3,6 +3,7 @@
 ### 1.6.1 (pending)
 
 * update maven-plugin-plugin 3.6.0 to 3.7.0
+* update maven-dependency-plugin 3.1.2 to 3.3.0 and remove analyze only execution
 
 
 ### 1.6.0 (2022-10-08)
