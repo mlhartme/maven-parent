@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.6.1 (pending)
+
+* update maven-plugin-plugin 3.6.0 to 3.7.0
+
+
 ### 1.6.0 (2022-10-08)
 
 * changed coordinates to de.schmizzolin.maven.poms:parent
