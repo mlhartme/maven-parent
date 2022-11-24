@@ -23,7 +23,7 @@
   </issueManagement>
 
   <scm>
-    <connection>scm:git:git://git@github.com/mlhartme/maven-parent.git</connection>
+    <connection>scm:git:ssh://git@github.com/mlhartme/maven-parent.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mlhartme/maven-parent.git</developerConnection>
     <url>https://github.com/mlhartme/maven-parent</url>
     <tag>HEAD</tag>
