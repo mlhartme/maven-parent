@@ -1,8 +1,8 @@
 ## Changes
 
-### 1.6.1 (pending)
+### 1.6.1 (2022-12-04)
 
-* added legacy-distribution profile, activated by src/legacy-distribution
+* added legacy-distribution profile, activated if file `src/legacy-distribution` exists
 * update maven-plugin-plugin 3.6.0 to 3.7.0
 * update maven-dependency-plugin 3.1.2 to 3.3.0 and remove analyze only execution
 * update maven-install-plugin 3.0.1 to 3.1.0
