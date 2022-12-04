@@ -7,7 +7,7 @@
 
   <groupId>de.schmizzolin.maven.poms</groupId>
   <artifactId>parent</artifactId>
-  <version>1.6.2-SNAPSHOT</version>
+  <version>1.6.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <inceptionYear>2012</inceptionYear>
