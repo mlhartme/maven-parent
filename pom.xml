@@ -633,6 +633,29 @@
         </plugins>
       </build>
     </profile>
+    <profile>
+      <id>legacy-distribution</id>
+      <activation>
+        <file>
+          <exists>src/legacy-distribution</exists>
+        </file>
+      </activation>
+      <distributionManagement>
+        <site>
+          <id>github</id>
+          <name>maven-reports at github</name>
+          <url>https://github.com/1and1/foss-parent</url>
+        </site>
+        <snapshotRepository>
+          <id>sonatype-nexus-snapshots</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+          <id>sonatype-nexus-staging</id>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+      </distributionManagement>
+    </profile>
   </profiles>
 
   <distributionManagement>
@@ -721,4 +744,5 @@
       </plugin>
     </plugins>
   </reporting>
+
 </project>
