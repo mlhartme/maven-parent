@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.6.2
+
+* update maven-project-info plugin 3.4.1 to 3.4.2
+
+
 ### 1.6.1 (2022-12-04)
 
 * added legacy-distribution profile, activated if file `src/legacy-distribution` exists
