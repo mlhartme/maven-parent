@@ -3,7 +3,8 @@
 ### 1.6.2
 
 * update surefire and failsafe plugin 3.0.0-M7 to M8
-* update maven-project-info plugin 3.4.1 to 3.4.2
+* update project-info plugin 3.4.1 to 3.4.2
+* update dependency plugin 3.3.0 to 3.5.0
 
 
 ### 1.6.1 (2022-12-04)
