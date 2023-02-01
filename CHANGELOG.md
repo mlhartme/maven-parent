@@ -6,6 +6,7 @@
 * update project-info plugin 3.4.1 to 3.4.2
 * update dependency plugin 3.3.0 to 3.5.0
 * update checkstyle plugin 3.2.0 to 3.2.1
+* update enforder plugin 3.1 to 3.2.1
 
 
 ### 1.6.1 (2022-12-04)
