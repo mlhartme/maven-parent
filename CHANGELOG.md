@@ -3,6 +3,7 @@
 ### 1.6.3
 
 * update deploy plugin 3.0.0 to 3.1.0
+* update surefire/failsafe plugin 3.0.0-M8 to M9.
 
 
 ### 1.6.2
