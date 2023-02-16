@@ -2,6 +2,7 @@
 
 ### 1.6.3
 
+* update javadoc 3.4.1 to 3.5.0
 * update deploy plugin 3.0.0 to 3.1.0
 * update surefire/failsafe plugin 3.0.0-M8 to M9.
 
