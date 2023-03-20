@@ -2,6 +2,7 @@
 
 ### 1.6.2 (pending)
 
+* update help 3.3.0 to 3.4.0
 * update javadoc 3.4.1 to 3.5.0
 * update deploy plugin 3.0.0 to 3.1.0
 * update compiler plugin 3.10.1 to 3.11.0
