@@ -6,7 +6,8 @@
 * update javadoc 3.4.1 to 3.5.0
 * update deploy plugin 3.0.0 to 3.1.1
 * update compiler plugin 3.10.1 to 3.11.0
-* update surefire/failsafe plugin 3.0.0-M7 to 3.0.0.
+* update surefire/failsafe plugin 3.0.0-M7 to 3.1.0
+* update gpg plugin 3.0.1 to 3.1.0
 * update project-info plugin 3.4.1 to 3.4.3
 * update dependency plugin 3.3.0 to 3.5.0
 * update checkstyle plugin 3.2.0 to 3.2.2
