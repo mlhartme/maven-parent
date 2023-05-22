@@ -14,6 +14,7 @@
 * update maven-install-plugin 3.1.0 to 3.1.1
 * update resource plugin 3.3.0 to 3.3.1
 * update enforder plugin 3.1 to 3.3.0
+* update source plugin 3.2.1 to 3.3.0
 
 
 ### 1.6.1 (2022-12-04)
