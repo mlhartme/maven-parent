@@ -8,7 +8,7 @@
 * update compiler plugin 3.10.1 to 3.11.0
 * update surefire/failsafe plugin 3.0.0-M7 to 3.1.2
 * update gpg plugin 3.0.1 to 3.1.0
-* update project-info plugin 3.4.1 to 3.4.3
+* update project-info plugin 3.4.1 to 3.4.5
 * update dependency plugin 3.3.0 to 3.5.0
 * update checkstyle plugin 3.2.0 to 3.3.0
 * update install 3.1.0 to 3.1.1
