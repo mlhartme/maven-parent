@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.6.3 (pending)
+
+* fix source plugin config during release
+
+
 ### 1.6.2 (2023-08-11)
 
 * introduced a new schmizzolin-release profile to align with release plugin changes

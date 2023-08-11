@@ -391,20 +391,6 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
           <version>3.3.0</version>
-          <executions>
-            <execution>
-              <id>default-jar-no-fork</id>
-              <goals>
-                <goal>jar-no-fork</goal>
-              </goals>
-            </execution>
-            <execution>
-              <id>default-test-jar-no-fork</id>
-              <goals>
-                <goal>test-jar-no-fork</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -630,9 +616,15 @@
             <artifactId>maven-source-plugin</artifactId>
             <executions>
               <execution>
-                <id>attach-sources</id>
+                <id>release-jar-no-fork</id>
                 <goals>
                   <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>release-test-jar-no-fork</id>
+                <goals>
+                  <goal>test-jar-no-fork</goal>
                 </goals>
               </execution>
             </executions>
