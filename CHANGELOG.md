@@ -1,22 +1,21 @@
 ## Changes
 
-### 1.6.2 (pending)
+### 1.6.2 (2023-08-11)
 
-* update help 3.3.0 to 3.4.0
-* update javadoc 3.4.1 to 3.5.0
-* update deploy plugin 3.0.0 to 3.1.1
-* update compiler plugin 3.10.1 to 3.11.0
-* update surefire/failsafe plugin 3.0.0-M7 to 3.1.2
-* update gpg plugin 3.0.1 to 3.1.0
-* update project-info plugin 3.4.1 to 3.4.5
-* update dependency plugin 3.3.0 to 3.5.0
 * update checkstyle plugin 3.2.0 to 3.3.0
+* update compiler plugin 3.10.1 to 3.11.0
+* update dependency plugin 3.3.0 to 3.6.0
+* update deploy plugin 3.0.0 to 3.1.1
+* update enforder plugin 3.1 to 3.3.0
+* update gpg plugin 3.0.1 to 3.1.0
+* update help 3.3.0 to 3.4.0
 * update install 3.1.0 to 3.1.1
+* update javadoc 3.4.1 to 3.5.0
+* update project-info plugin 3.4.1 to 3.4.5
 * update release 2.5.3 ti 3.0.1
 * update resource plugin 3.3.0 to 3.3.1
-* update enforder plugin 3.1 to 3.3.0
 * update source plugin 3.2.1 to 3.3.0
-* update dependency plugin 3.5.0 to 3.6.0
+* update surefire/failsafe plugin 3.0.0-M7 to 3.1.2
 
 ### 1.6.1 (2022-12-04)
 
