@@ -7,7 +7,7 @@
 
   <groupId>de.schmizzolin.maven.poms</groupId>
   <artifactId>parent</artifactId>
-  <version>1.6.3-SNAPSHOT</version>
+  <version>1.6.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <inceptionYear>2012</inceptionYear>
@@ -364,6 +364,7 @@
             -->
             <mavenExecutorId>forked-path</mavenExecutorId>
             <autoVersionSubmodules>true</autoVersionSubmodules>
+            <releaseProfiles>schmizzolin-release</releaseProfiles>
           </configuration>
         </plugin>
         <plugin>
@@ -597,15 +598,63 @@
   </build>
   <profiles>
     <profile>
-      <id>release-sign-artifacts</id>
+      <id>legacy-distribution</id>
       <activation>
-        <property>
-          <name>performRelease</name>
-          <value>true</value>
-        </property>
+        <file>
+          <exists>src/legacy-distribution</exists>
+        </file>
       </activation>
+      <distributionManagement>
+        <site>
+          <id>github</id>
+          <name>maven-reports at github</name>
+          <url>https://github.com/1and1/foss-parent</url>
+        </site>
+        <snapshotRepository>
+          <id>sonatype-nexus-snapshots</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+          <id>sonatype-nexus-staging</id>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+      </distributionManagement>
+    </profile>
+    <profile>
+      <id>schmizzolin-release</id>
       <build>
         <plugins>
+          <!-- plugins from Maven's super pom -->
+          <plugin>
+            <inherited>true</inherited>
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <inherited>true</inherited>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <inherited>true</inherited>
+            <artifactId>maven-deploy-plugin</artifactId>
+          </plugin>
+
+          <!-- specific plugins -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
@@ -632,29 +681,6 @@
           </plugin>
         </plugins>
       </build>
-    </profile>
-    <profile>
-      <id>legacy-distribution</id>
-      <activation>
-        <file>
-          <exists>src/legacy-distribution</exists>
-        </file>
-      </activation>
-      <distributionManagement>
-        <site>
-          <id>github</id>
-          <name>maven-reports at github</name>
-          <url>https://github.com/1and1/foss-parent</url>
-        </site>
-        <snapshotRepository>
-          <id>sonatype-nexus-snapshots</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-          <id>sonatype-nexus-staging</id>
-          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-      </distributionManagement>
     </profile>
   </profiles>
 

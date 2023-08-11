@@ -2,6 +2,7 @@
 
 ### 1.6.2 (2023-08-11)
 
+* introduced a new schmizzolin-release profile to align with release plugin changes
 * update checkstyle plugin 3.2.0 to 3.3.0
 * update compiler plugin 3.10.1 to 3.11.0
 * update dependency plugin 3.3.0 to 3.6.0
