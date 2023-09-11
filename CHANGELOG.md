@@ -3,6 +3,7 @@
 ### 1.6.3 (pending)
 
 * fix source plugin config during release
+* update enforcer plugin 3.3.0 to 3.4.0
 
 
 ### 1.6.2 (2023-08-11)
