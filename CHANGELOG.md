@@ -1,6 +1,6 @@
 ## Changes
 
-### 1.6.3 (pending)
+### 1.6.3 (2023-10-07)
 
 * fix source plugin config during release
 * update changelog plugin 3.3.0 to 3.3.1
