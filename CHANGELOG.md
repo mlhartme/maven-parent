@@ -3,6 +3,7 @@
 ### 1.6.3 (pending)
 
 * fix source plugin config during release
+* update changelog plugin 3.3.0 to 3.3.1
 * update enforcer plugin 3.3.0 to 3.4.1
 * update javadoc plugin 3.5.0 to 3.6.0
 * update surefire plugin 3.1.2 to 3.2.1
