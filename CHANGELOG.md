@@ -4,6 +4,7 @@
 
 * fix source plugin config during release
 * update changelog plugin 3.3.0 to 3.3.1
+* update compiler plugin 3.11.0 to 3.12.0
 * update clean plugin 3.2.0 to 3.2.2
 * update project info plugin 3.4.5 to 3.5.0
 * update enforcer plugin 3.3.0 to 3.4.1
