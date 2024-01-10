@@ -10,7 +10,7 @@
 * update javadoc plugin 3.5.0 to 3.6.3
 * update jxr plugin 3.3.0 to 3.3.2
 * update project info plugin 3.4.5 to 3.5.0
-* update surefire/failsafe plugin 3.1.2 to 3.2.3
+* update surefire/failsafe plugin 3.1.2 to 3.2.5
 
 
 ### 1.6.2 (2023-08-11)
