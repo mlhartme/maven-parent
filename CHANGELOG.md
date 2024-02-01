@@ -1,5 +1,17 @@
 ## Changes
 
+### 1.6.4 (2024-02-01)
+
+* update checkstyle plugin 3.3.0 to 3.3.1
+* update compiler plugin 3.11.0 to 3.12.1
+* update clean plugin 3.2.0 to 3.3.2
+* update javadoc plugin 3.6.0 to 3.6.3
+* update jxr plugin 3.3.0 to 3.3.2
+* update project info plugin 3.4.5 to 3.5.0
+* update surefire/failsafe plugin 3.1.2 to 3.2.5
+
+ 
+
 ### 1.6.3 (2023-10-07)
 
 * fix source plugin config during release
