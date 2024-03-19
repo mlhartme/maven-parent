@@ -3,7 +3,7 @@
 ### 1.6.4 (2024-02-01)
 
 * update checkstyle plugin 3.3.0 to 3.3.1
-* update compiler plugin 3.11.0 to 3.12.1
+* update compiler plugin 3.11.0 to 3.13.0
 * update clean plugin 3.2.0 to 3.3.2
 * update javadoc plugin 3.6.0 to 3.6.3
 * update jxr plugin 3.3.0 to 3.3.2
