@@ -3,6 +3,7 @@
 ### 1.6.5 (pending)
 
 * update source plugin 3.3.0 to 3.3.1
+* update gpg plugin 3.2.2 to 3.2.3
 
 
 ### 1.6.4 (2024-02-01)
