@@ -4,6 +4,7 @@
 
 * update source plugin 3.3.0 to 3.3.1
 * update gpg plugin 3.2.2 to 3.2.3
+* update jar plugin 3.3.0 to 3.4.0
 
 
 ### 1.6.4 (2024-02-01)
