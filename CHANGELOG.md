@@ -1,5 +1,10 @@
 ## Changes
 
+### 1.6.6 (pending)
+
+* update javadoc 3.6.3 to 3.7.0
+
+
 ### 1.6.5 (2024-05-27)
 
 * update source plugin 3.3.0 to 3.3.1
