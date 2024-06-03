@@ -2,7 +2,8 @@
 
 ### 1.6.6 (pending)
 
-* update javadoc 3.6.3 to 3.7.0
+* update javadoc plugin 3.6.3 to 3.7.0
+* update enforder plugin 3.4.1 to 3.5.0
 
 
 ### 1.6.5 (2024-05-27)
