@@ -5,13 +5,14 @@
 * update checkstyle plugin 3.3.1 to 3.4.0
 * update clean plugin 3.3.2 to 3.4.0
 * update dependency plugin 3.6.0 to 3.7.1
+* update deploy plugin to 3.1.3
 * update enforder plugin 3.4.1 to 3.5.0
 * update gpg plugin 3.2.4 to 3.2.5
 * update help plugin 3.4.0 to 3.4.1
 * update javadoc plugin 3.6.3 to 3.7.0
 * update jar plugin 3.4.1 to 3.4.2
 * update project info plugin 3.5.0 to 3.6.1
-* update release plugin 3.0.1 to 3.1.3
+* update release plugin 3.0.1 to 3.1.1
 * update site plugin 3.12.1 to 3.20.0
 * update surefire/failsave plugin 3.2.5 to 3.4.0
 
