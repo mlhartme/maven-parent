@@ -10,7 +10,7 @@
 * update gpg plugin 3.2.4 to 3.2.5
 * update help plugin 3.4.0 to 3.5.0
 * update install plugin 3.1.2 to 3.1.3
-* update javadoc plugin 3.6.3 to 3.7.0
+* update javadoc plugin 3.6.3 to 3.10.0
 * update jar plugin 3.4.1 to 3.4.2
 * update project info plugin 3.5.0 to 3.7.0
 * update release plugin 3.0.1 to 3.1.1
