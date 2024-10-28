@@ -2,9 +2,9 @@
 
 ### 1.6.6 (pending)
 
-* update checkstyle plugin 3.3.1 to 3.5.0
+* update checkstyle plugin 3.3.1 to 3.6.0
 * update clean plugin 3.3.2 to 3.4.0
-* update dependency plugin 3.6.0 to 3.8.0
+* update dependency plugin 3.6.0 to 3.8.1
 * update deploy plugin 3.1.1 to 3.1.3
 * update enforder plugin 3.4.1 to 3.5.0
 * update gpg plugin 3.2.4 to 3.2.6
