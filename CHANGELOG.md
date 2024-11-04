@@ -15,7 +15,7 @@
 * update project info plugin 3.5.0 to 3.8.0
 * update release plugin 3.0.1 to 3.1.1
 * update site plugin 3.12.1 to 3.21.0
-* update surefire/failsafe plugin 3.2.5 to 3.5.1
+* update surefire/failsafe plugin 3.2.5 to 3.5.2
 
 
 ### 1.6.5 (2024-05-27)
