@@ -10,12 +10,12 @@
 * update gpg plugin 3.2.4 to 3.2.6
 * update help plugin 3.4.0 to 3.5.1
 * update install plugin 3.1.2 to 3.1.3
-* update javadoc plugin 3.6.3 to 3.10.1
+* update javadoc plugin 3.6.3 to 3.11.1
 * update jar plugin 3.4.1 to 3.4.2
 * update project info plugin 3.5.0 to 3.8.0
 * update release plugin 3.0.1 to 3.1.1
 * update site plugin 3.12.1 to 3.21.0
-* update surefire/failsave plugin 3.2.5 to 3.5.1
+* update surefire/failsafe plugin 3.2.5 to 3.5.1
 
 
 ### 1.6.5 (2024-05-27)
