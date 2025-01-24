@@ -1,5 +1,6 @@
 ## Changes
 
+
 ### 1.6.6 (pending)
 
 * update checkstyle plugin 3.3.1 to 3.6.0
