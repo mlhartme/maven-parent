@@ -1,7 +1,7 @@
 ## Changes
 
 
-### 1.7.0 (pending)
+### 1.7.0 (2026-01-13)
 
 * bump java.major to 21
 * adjust deploy config to publish central.sonatype.org

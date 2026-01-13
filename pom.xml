@@ -358,7 +358,7 @@
             -->
             <mavenExecutorId>forked-path</mavenExecutorId>
             <autoVersionSubmodules>true</autoVersionSubmodules>
-            <releaseProfiles>schmizzolin-release</releaseProfiles>
+            <releaseProfiles>sonatype-publish</releaseProfiles>
           </configuration>
         </plugin>
         <plugin>
@@ -578,7 +578,7 @@
   </build>
   <profiles>
     <profile>
-      <id>schmizzolin-release</id>
+      <id>sonatype-publish</id>
       <build>
         <plugins>
           <!-- plugins from Maven's super pom -->
