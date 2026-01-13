@@ -22,3 +22,7 @@ is a general purpose parent pom for Maven projects. Technically, it is a simplif
 
       mvn release:prepare
       mvn release:perform
+
+* auth problems with github:
+  * also login interactively
+  * try https, not git protocol
