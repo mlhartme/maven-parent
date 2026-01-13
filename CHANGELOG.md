@@ -1,22 +1,32 @@
 ## Changes
 
 
-### 1.6.6 (pending)
+### 1.7.0 (pending)
 
+* bump java.major to 21
+* adjust to central.sonatype.org
+
+* update antrun plugin 3.1.0 to 3.2.0
+* update buildnumber plugin 1.4 to 3.2.0
 * update checkstyle plugin 3.3.1 to 3.6.0
-* update clean plugin 3.3.2 to 3.4.0
-* update dependency plugin 3.6.0 to 3.8.1
-* update deploy plugin 3.1.1 to 3.1.3
-* update enforder plugin 3.4.1 to 3.5.0
+* update clean plugin 3.3.2 to 3.5.0
+* update compiler plugin 3.13.0 to 3.14.1
+* update dependency plugin 3.6.0 to 3.9.0
+* update deploy plugin 3.1.1 to 3.1.4
+* update enforcer plugin 3.4.1 to 3.6.2
 * update gpg plugin 3.2.4 to 3.2.6
 * update help plugin 3.4.0 to 3.5.1
-* update install plugin 3.1.2 to 3.1.3
-* update javadoc plugin 3.6.3 to 3.11.2
-* update jar plugin 3.4.1 to 3.4.2
+* update install plugin 3.1.2 to 3.1.4
+* update javadoc plugin 3.6.3 to 3.12.0
+* update jar plugin 3.4.1 to 3.5.0
 * update project info plugin 3.5.0 to 3.8.0
 * update release plugin 3.0.1 to 3.1.1
+* update resource plugin 3.3.1 to 3.4.0
+* update source plugin 3.3.1 to 3.4.0
 * update site plugin 3.12.1 to 3.21.0
 * update surefire/failsafe plugin 3.2.5 to 3.5.2
+* update versions 2.8.1 to 2.20.1
+* update war plugin 3.3.2 to 3.5.1
 
 
 ### 1.6.5 (2024-05-27)
