@@ -13,3 +13,12 @@ is a general purpose parent pom for Maven projects. Technically, it is a simplif
     <username>someUsername</username>
     <password>somePassword</password>
     </server>
+
+* deploy snapshot:
+
+      mvn clean deploy -Psonatype-publish
+
+* release:
+
+      mvn release:prepare
+      mvn release:perform
