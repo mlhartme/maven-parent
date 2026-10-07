@@ -10,11 +10,13 @@ is a general purpose parent pom for Maven projects. Technically, it is a simplif
 
 * adjust your ~/.m2/settings.xml
   * add a property "gpg.passphrase" with your passphrase
-  * add your fesh user token, it should look something like <server>
-    <id>sonatype-central</id>
-    <username>someUsername</username>
-    <password>somePassword</password>
-    </server>
+  * add your fesh user token, it should look something like 
+
+        <server>
+          <id>sonatype-central</id>
+          <username>someUsername</username>
+          <password>somePassword</password>
+        </server>
 
 * deploy snapshot:
 
