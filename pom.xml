@@ -632,6 +632,7 @@
             <artifactId>central-publishing-maven-plugin</artifactId>
             <configuration>
               <publishingServerId>sonatype-central</publishingServerId>
+              <autoPublish>true</autoPublish>
             </configuration>
             <executions>
               <execution>

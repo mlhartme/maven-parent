@@ -1,6 +1,10 @@
 ## Changes
 
 
+### 1.7.1 (pending)
+
+* enable autoPublish
+
 ### 1.7.0 (2026-01-13)
 
 * bump java.major to 21
