@@ -2,10 +2,27 @@
 ## Changes
 
 
-### 1.7.1 (pending)
+### 1.8.0 (2026-10-07)
 
 * enable autoPublish
 * raise Maven version requirement from 3.5 to 3.9
+* update buildnumber plugin 3.2.1 to 3.3.1
+* update checkstyle plugin 8.40 to 12.3.1
+* update compiler plugin 3.14.1 to 3.16.0
+* update dependency plugin 3.9.0 to 3.11.0
+* update deploy plugin 3.1.4 to 3.2.0
+* update Doxia Markdown module 1.11.1 to 2.0.0
+* update enforcer plugin 3.6.2 to 3.6.3
+* update help plugin 3.5.1 to 3.5.2
+* update install plugin 3.1.4 to 3.2.0
+* update jar plugin 3.5.0 to 3.5.1
+* update jdepend plugin 2.0 to 2.2.1
+* update license plugin 5.0.0 to 5.1.2
+* update resources plugin 3.4.0 to 3.5.0
+* update Sonatype Central publishing plugin 0.10.0 to 0.11.0
+* update surefire/failsafe plugins 3.5.4 to 3.6.0
+* update SpotBugs plugin 4.9.8.2 to 4.10.4.1
+* update versions plugin 2.20.1 to 2.22.0
 
 
 ### 1.7.0 (2026-01-13)
