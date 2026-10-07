@@ -6,9 +6,11 @@ is a general purpose parent pom for Maven projects. Technically, it is a simplif
 
 * General documentation can be found at https://central.sonatype.org/pages/ossrh-eol/#process-to-migrate
 * log in at https://central.sonatype.com
-* adjust your settings
+  * in "view user tokens": create a fresh on
+
+* adjust your ~/.m2/settings.xml
   * add a property "gpg.passphrase" with your passphrase
-  * add your "user token" that should look something like <server>
+  * add your fesh user token, it should look something like <server>
     <id>sonatype-central</id>
     <username>someUsername</username>
     <password>somePassword</password>
