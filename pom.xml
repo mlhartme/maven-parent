@@ -550,7 +550,7 @@
                   <message>No Snapshots Allowed!</message>
                 </requireReleaseDeps>
                 <requireMavenVersion>
-                  <version>[3.5.3,)</version>
+                  <version>[3.9.0,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
                   <version>${java.major}</version>

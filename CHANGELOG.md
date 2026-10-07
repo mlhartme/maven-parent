@@ -1,9 +1,12 @@
+
 ## Changes
 
 
 ### 1.7.1 (pending)
 
 * enable autoPublish
+* raise Maven version requirement from 3.5 to 3.9
+
 
 ### 1.7.0 (2026-01-13)
 
